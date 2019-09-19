@@ -1,3 +1,9 @@
+**I've forked the [original repository](https://github.com/kolektiv/FifteenBelow.Json) and ported the project to .net core.**
+
+You can get the .net core version on [nuget](https://www.nuget.org/packages/FifteenBelow.Json.Core/1.0.0).
+
+**Here is the original README:**
+
 # FifteenBelow.Json
 
 ## Overview
