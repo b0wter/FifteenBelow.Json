@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>FifteenBelow.Json.Core</id>
+        <version>1.0.0</version>
+        <authors>b0wter (b0wter@gmx.de)</authors>
+        <owners>evil-klabautermann@gmx.de</owners>
+        <projectUrl>https://github.com/b0wter/FifteenBelow.Json</projectUrl>
+        <license type="expression">MIT</license>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<releaseNotes>Ported the FifteenBelow.Json library to .Net core.</releaseNotes>
+        <description>Port of the FifteenBelow.Json package for .Net core.</description>
+        <tags>utility</tags>
+        <dependencies>
+	      <group targetFramework=".NETStandard2.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="FifteenBelow.Json.fsproj" target="src"/>
+        <file src="*.fs" target="src"/>
+	<file src="bin/Release/netstandard2.0/FifteenBelow.Json.dll" target="lib/netstandard2.0"/>
+    </files>
+</package>
